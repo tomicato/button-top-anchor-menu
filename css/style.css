@@ -1,0 +1,45 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.txt{
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 50px;
+}
+.btn{
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    height: 0;
+    width: 0;
+    border-bottom: 30px solid #876ef8;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    cursor: pointer;
+}
+#menu{
+    background: #d3084a;
+    opacity: 0.5;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    margin: auto;
+    top: 0;
+}
+
+#menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px auto;
+    padding: 0 50px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#fff;
+
+
+}
